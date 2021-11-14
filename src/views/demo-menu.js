@@ -97,6 +97,10 @@ export default {
           route: route("action-bar")
         },
         {
+          title: "ActionList",
+          route: route("action-list")
+        },
+        {
           title: "Dropdown",
           route: route("dropdown")
         },
