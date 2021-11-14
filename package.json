@@ -8,27 +8,27 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "push": "git push origin master --tags"
+    "push": "git push origin master"
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "2.1.0",
-    "@ruleenginejs/ruleengine-ui": "1.1.0",
-    "@vscode/codicons": "0.0.25",
+    "@ruleenginejs/ruleengine-ui": "1.1.1",
+    "@vscode/codicons": "0.0.26",
     "highlight.js": "11.3.1",
     "lodash": "4.17.21",
-    "vue": "3.2.20",
+    "vue": "3.2.21",
     "vue-router": "4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.9.4",
     "autoprefixer": "10.4.0",
-    "eslint": "8.1.0",
+    "eslint": "8.2.0",
     "eslint-plugin-vue": "8.0.3",
     "postcss": "8.3.11",
     "postcss-import": "14.0.2",
     "postcss-nesting": "9.0.0",
     "tailwindcss": "2.2.19",
-    "vite": "2.6.13"
+    "vite": "2.6.14"
   },
   "repository": {
     "type": "git",
