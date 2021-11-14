@@ -104,6 +104,10 @@ export default {
           title: "Dropdown",
           route: route("dropdown")
         },
+        {
+          title: "FloatingToolbar",
+          route: route("floating-toolbar")
+        }
       ]
     },
     {
@@ -125,6 +129,14 @@ export default {
         {
           title: "Suggest",
           route: route("suggest")
+        },
+        {
+          title: "KeybindingLabel",
+          route: route("keybinding-label")
+        },
+        {
+          title: "KeyboardShortcuts",
+          route: route("keyboard-shortcuts")
         }
       ]
     }

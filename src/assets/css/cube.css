@@ -38,6 +38,14 @@
   @apply flex-shrink-0;
 }
 
+.demo-cube-relative {
+  @apply relative;
+}
+
+.demo-cube-w50p {
+  @apply w-1/2;
+}
+
 .demo-cube-a,
 .demo-cube-b,
 .demo-cube-c,
