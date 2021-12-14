@@ -4,9 +4,9 @@
   <h3>Basic Usage</h3>
   <demo-block class="demo-autocomplete-block">
     <v-autocomplete
-      placeholder="Enter your text"
       v-model="value"
       :data-source="fetchAutocompleteData"
+      placeholder="Enter your text"
       loading-message="Loading..."
       empty-result-message="No matching results."
     />
@@ -26,7 +26,11 @@
   <h3>Autocomplete With Icon</h3>
   <demo-block class="demo-autocomplete-block">
     <v-autocomplete
+      v-model="withIconValue"
+      :data-source="fetchAutocompleteData"
       placeholder="Enter your text"
+      loading-message="Loading..."
+      empty-result-message="No matching results."
       icon-clickable
       @icon-click="onClick"
     >
@@ -94,6 +98,7 @@ export default {
 
     return {
       value,
+      withIconValue: ref(""),
       fetchAutocompleteData,
       onClick: () => {}
     };

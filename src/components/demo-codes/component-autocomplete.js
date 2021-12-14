@@ -1,9 +1,9 @@
 const autocomplete_basic_usage_html = `
 <template>
   <v-autocomplete
-    placeholder="Enter your text"
     v-model="value"
     :data-source="fetchAutocompleteData"
+    placeholder="Enter your text"
     loading-message="Loading..."
     empty-result-message="No matching results."
   />
@@ -78,7 +78,11 @@ const autocomplete_disabled_usage_html = `
 const autocomplete_with_icon_usage_html = `
 <template>
   <v-autocomplete
+    v-model="value"
+    :data-source="fetchAutocompleteData"
     placeholder="Enter your text"
+    loading-message="Loading..."
+    empty-result-message="No matching results."
     icon-clickable
     @icon-click="onClick"
   >
@@ -87,6 +91,65 @@ const autocomplete_with_icon_usage_html = `
     </template>
   </v-autocomplete>
 </template>
+
+<script>
+  import { ref } from 'vue'
+
+  export default {
+    setup() {
+      const value = ref("");
+      const items = ref([
+        {
+          text: "Vue.js"
+        },
+        {
+          text: "React"
+        },
+        {
+          text: "Angular"
+        },
+        {
+          text: "Ember.js"
+        },
+        {
+          text: "Meteor"
+        },
+        {
+          text: "Polymer"
+        },
+        {
+          text: "Backbone.js"
+        }
+      ]);
+
+      const searchData = (query) => {
+        return query
+          ? items.value.filter((item) =>
+              item.text.toLowerCase().includes(query.toLowerCase())
+            )
+          : items.value;
+      };
+
+      const fetchAutocompleteData = (query, requestId, token) => {
+        return new Promise((resolve) => {
+          const timer = setTimeout(() => {
+            resolve(searchData(query));
+          }, 100);
+
+          token.onCancellationRequested(() => {
+            clearTimeout(timer);
+            resolve();
+          });
+        });
+      };
+
+      return {
+        value,
+        fetchAutocompleteData
+      };
+    }
+  }
+</script>
 `;
 
 export default [
