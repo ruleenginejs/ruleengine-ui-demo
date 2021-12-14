@@ -127,6 +127,10 @@ export default {
           route: route("splitview")
         },
         {
+          title: "Draggable",
+          route: route("draggable")
+        },
+        {
           title: "Suggest",
           route: route("suggest")
         },
