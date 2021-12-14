@@ -1,7 +1,7 @@
 {
   "name": "@ruleenginejs/ruleengine-ui-demo",
   "version": "1.0.0",
-  "description": "Component Library Demo",
+  "description": "Vue3.0 Component Library Demo",
   "private": true,
   "scripts": {
     "start": "npm run dev",
@@ -12,23 +12,23 @@
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "2.1.0",
-    "@ruleenginejs/ruleengine-ui": "1.1.5",
+    "@ruleenginejs/ruleengine-ui": "1.1.9",
     "@vscode/codicons": "0.0.26",
     "highlight.js": "11.3.1",
     "lodash": "4.17.21",
-    "vue": "3.2.21",
+    "vue": "3.2.26",
     "vue-router": "4.0.12"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "1.9.4",
+    "@vitejs/plugin-vue": "2.0.0",
     "autoprefixer": "10.4.0",
-    "eslint": "8.2.0",
-    "eslint-plugin-vue": "8.0.3",
-    "postcss": "8.3.11",
+    "eslint": "8.4.1",
+    "eslint-plugin-vue": "8.2.0",
+    "postcss": "8.4.5",
     "postcss-import": "14.0.2",
-    "postcss-nesting": "9.0.0",
+    "postcss-nesting": "10.0.3",
     "tailwindcss": "2.2.19",
-    "vite": "2.6.14"
+    "vite": "2.7.2"
   },
   "repository": {
     "type": "git",
