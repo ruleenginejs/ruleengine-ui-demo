@@ -33,6 +33,31 @@
       <demo-code name="input_with_icon_html" />
     </template>
   </demo-block>
+
+  <h3>Input message</h3>
+  <demo-block class="demo-input-block">
+    <v-input
+      v-model="inputWithMessage"
+      placeholder="Error message"
+      error
+      message="Some error message"
+    />
+    <v-input
+      v-model="inputWithMessage"
+      placeholder="Warning message"
+      warning
+      message="Some warning message"
+    />
+    <v-input
+      v-model="inputWithMessage"
+      placeholder="Info message"
+      info
+      message="Some info message"
+    />
+    <template #code>
+      <demo-code name="input_message_html" />
+    </template>
+  </demo-block>
 </template>
 
 <script>
@@ -41,14 +66,11 @@ import { ref } from "vue";
 export default {
   name: "demo-component-button",
   setup() {
-    const input = ref("");
-    const disabledInput = ref("");
-    const inputWithIcon = ref("");
-
     return {
-      input,
-      disabledInput,
-      inputWithIcon
+      input: ref(""),
+      disabledInput: ref(""),
+      inputWithIcon: ref(""),
+      inputWithMessage: ref("")
     };
   }
 };
