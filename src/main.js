@@ -6,9 +6,9 @@ import globalComponents from './utils/global-components'
 import 'highlight.js/lib/common'
 import 'highlight.js/styles/vs2015.css'
 import '@vscode/codicons/dist/codicon.css'
-import RuleEngineUI from "@ruleenginejs/ruleengine-ui"
-import "@ruleenginejs/ruleengine-ui/dist/style.css"
-import "@ruleenginejs/ruleengine-ui/dist/vscode.theme.css"
+import RuleEngineUI from "@ruleenginejs/ui"
+import "@ruleenginejs/ui/dist/style.css"
+import "@ruleenginejs/ui/dist/vscode.theme.css"
 
 const app = createApp(App)
 

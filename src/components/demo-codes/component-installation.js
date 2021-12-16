@@ -1,11 +1,11 @@
 const installation_usage_js = `
 import { createApp } from 'vue'
 import App from './App.vue'
-import RuleEngineUI from '@ruleenginejs/ruleengine-ui'
+import RuleEngineUI from '@ruleenginejs/ui'
 // Add css styles
-import "@ruleenginejs/ruleengine-ui/dist/normalize.css"
-import '@ruleenginejs/ruleengine-ui/dist/style.css'
-import '@ruleenginejs/ruleengine-ui/dist/dark.theme.css'
+import "@ruleenginejs/ui/dist/normalize.css"
+import '@ruleenginejs/ui/dist/style.css'
+import '@ruleenginejs/ui/dist/dark.theme.css'
 
 const app = createApp(App)
 

@@ -3,7 +3,7 @@
   <h3>npm</h3>
   <demo-code
     lang="shell"
-    code="npm install @ruleenginejs/ruleengine-ui"
+    code="npm install @ruleenginejs/ui"
   />
 
   <p>Add codicons (optional)</p>
