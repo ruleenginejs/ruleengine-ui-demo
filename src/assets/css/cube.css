@@ -75,46 +75,44 @@
   content: "D";
 }
 
-.vscode-dark {
-  & .demo-cube-a {
-    background-color: #2A2438;
-  }
-
-  & .demo-cube-b {
-    background-color: #59405C;
-  }
-
-  & .demo-cube-c {
-    background-color: #322F3D;
-  }
-
-  & .demo-cube-d {
-    background-color: #4B5D67;
-  }
-
-  & .demo-cube-num {
-    background-color: #4B5D67;
-  }
+/* vscode dark */
+.vscode-dark .demo-cube-a {
+  background-color: #2A2438;
 }
 
-.vscode-light {
-  & .demo-cube-a {
-    background-color: #F3ECB8;
-  }
+.vscode-dark .demo-cube-b {
+  background-color: #59405C;
+}
 
-  & .demo-cube-b {
-    background-color: #F5CAB3;
-  }
+.vscode-dark .demo-cube-c {
+  background-color: #322F3D;
+}
 
-  & .demo-cube-c {
-    background-color: #A8D3DA;
-  }
+.vscode-dark .demo-cube-d {
+  background-color: #4B5D67;
+}
 
-  & .demo-cube-d {
-    background-color: #B590CA;
-  }
+.vscode-dark .demo-cube-num {
+  background-color: #4B5D67;
+}
 
-  & .demo-cube-num {
-    background-color: #B590CA;
-  }
+/* vscode light */
+.vscode-light .demo-cube-a {
+  background-color: #F3ECB8;
+}
+
+.vscode-light .demo-cube-b {
+  background-color: #F5CAB3;
+}
+
+.vscode-light .demo-cube-c {
+  background-color: #A8D3DA;
+}
+
+.vscode-light .demo-cube-d {
+  background-color: #B590CA;
+}
+
+.vscode-light .demo-cube-num {
+  background-color: #B590CA;
 }
