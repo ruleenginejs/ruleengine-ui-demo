@@ -4,11 +4,19 @@
 }
 
 .demo-header__logo {
-  @apply uppercase whitespace-nowrap;
+  @apply hidden uppercase whitespace-nowrap;
 }
 
 .demo-header__logo a:hover {
   color: inherit;
+}
+
+.demo-header__logo-image {
+  @apply mr-2 flex-shrink-0;
+}
+
+.demo-header__logo-image img {
+  @apply relative -top-px;
 }
 
 .demo-header__nav {
@@ -22,5 +30,9 @@
 @screen sm {
   .demo-header__nav a {
     @apply ml-5;
+  }
+
+  .demo-header__logo {
+    @apply block;
   }
 }
