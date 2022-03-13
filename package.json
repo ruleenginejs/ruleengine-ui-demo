@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "2.1.0",
-    "@ruleenginejs/ui": "1.2.3",
+    "@ruleenginejs/ui": "1.2.4",
     "@vscode/codicons": "0.0.29",
     "highlight.js": "11.5.0",
     "lodash": "4.17.21",
