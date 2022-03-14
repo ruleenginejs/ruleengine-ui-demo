@@ -1,5 +1,5 @@
 import kebabCase from "lodash/kebabCase";
-const components = import.meta.globEager("../components/**/*.(vue|js)");
+const components = import.meta.globEager("../components/**/demo-*.(vue|js)");
 
 export default {
   install: (app) => {
