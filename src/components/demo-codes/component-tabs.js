@@ -43,8 +43,8 @@ const tabs_basic_usage_html = `
 
 export default [
   {
-    name: "tabs_basic_usage_html",
+    name: 'tabs_basic_usage_html',
     code: tabs_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

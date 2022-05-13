@@ -68,18 +68,18 @@ const fieldset_title_actions_html = `
 
 export default [
   {
-    name: "fieldset_basic_usage_html",
+    name: 'fieldset_basic_usage_html',
     code: fieldset_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "fieldset_vertical_field_layout_html",
+    name: 'fieldset_vertical_field_layout_html',
     code: fieldset_vertical_field_layout_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "fieldset_title_actions_html",
+    name: 'fieldset_title_actions_html',
     code: fieldset_title_actions_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

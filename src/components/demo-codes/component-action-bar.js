@@ -58,18 +58,18 @@ const actionbar_grouping_action_usage_html = `
 
 export default [
   {
-    name: "actionbar_basic_usage_html",
+    name: 'actionbar_basic_usage_html',
     code: actionbar_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionbar_disabled_action_usage_html",
+    name: 'actionbar_disabled_action_usage_html',
     code: actionbar_disabled_action_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionbar_grouping_action_usage_html",
+    name: 'actionbar_grouping_action_usage_html',
     code: actionbar_grouping_action_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

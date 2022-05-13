@@ -7,7 +7,9 @@
       <v-content class="demo-content" w-full h-full scroll fill>
         <p>
           The page you are visiting was not found. Go to
-          <router-link class="demo-link" :to="{ name: 'home' }">main page.</router-link>
+          <router-link class="demo-link" :to="{ name: 'home' }"
+            >main page.</router-link
+          >
         </p>
       </v-content>
     </v-layout>
@@ -15,10 +17,10 @@
 </template>
 
 <script>
-import DemoHeader from "./demo-header.vue";
+import DemoHeader from './demo-header.vue';
 
 export default {
-  name: "demo-not-found",
+  name: 'demo-not-found',
   components: {
     DemoHeader
   }

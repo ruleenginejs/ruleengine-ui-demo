@@ -23,31 +23,31 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-dropdown",
+  name: 'demo-component-dropdown',
   setup() {
     return {
       dropdownOpen: ref(false),
       items: ref([
         {
           id: 1,
-          text: "Item 1",
-          icon: "v-icon-doc-text",
-          iconColor: "#B69E24"
+          text: 'Item 1',
+          icon: 'v-icon-doc-text',
+          iconColor: '#B69E24'
         },
         {
           id: 2,
-          text: "Item 2",
-          icon: "v-icon-doc-text",
-          iconColor: "#B69E24"
+          text: 'Item 2',
+          icon: 'v-icon-doc-text',
+          iconColor: '#B69E24'
         },
         {
           id: 3,
-          text: "Item 3",
-          icon: "v-icon-doc-text",
-          iconColor: "#B69E24"
+          text: 'Item 3',
+          icon: 'v-icon-doc-text',
+          iconColor: '#B69E24'
         }
       ])
     };

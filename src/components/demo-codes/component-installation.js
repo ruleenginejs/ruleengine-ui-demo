@@ -24,13 +24,13 @@ const installation_usage_html = `
 
 export default [
   {
-    name: "installation_usage_js",
+    name: 'installation_usage_js',
     code: installation_usage_js,
-    lang: "javascript"
+    lang: 'javascript'
   },
   {
-    name: "installation_usage_html",
+    name: 'installation_usage_html',
     code: installation_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

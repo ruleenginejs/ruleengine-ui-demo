@@ -154,18 +154,18 @@ const autocomplete_with_icon_usage_html = `
 
 export default [
   {
-    name: "autocomplete_basic_usage_html",
+    name: 'autocomplete_basic_usage_html',
     code: autocomplete_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "autocomplete_disabled_usage_html",
+    name: 'autocomplete_disabled_usage_html',
     code: autocomplete_disabled_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "autocomplete_with_icon_usage_html",
+    name: 'autocomplete_with_icon_usage_html',
     code: autocomplete_with_icon_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

@@ -23,8 +23,8 @@ const label_basic_usage_html = `
 
 export default [
   {
-    name: "label_basic_usage_html",
+    name: 'label_basic_usage_html',
     code: label_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

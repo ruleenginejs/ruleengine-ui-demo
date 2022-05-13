@@ -61,16 +61,16 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-button",
+  name: 'demo-component-button',
   setup() {
     return {
-      input: ref(""),
-      disabledInput: ref(""),
-      inputWithIcon: ref(""),
-      inputWithMessage: ref("")
+      input: ref(''),
+      disabledInput: ref(''),
+      inputWithIcon: ref(''),
+      inputWithMessage: ref('')
     };
   }
 };

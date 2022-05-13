@@ -18,13 +18,13 @@ const button_disabled_html = `
 
 export default [
   {
-    name: "button_basic_usage_html",
+    name: 'button_basic_usage_html',
     code: button_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "button_disabled_html",
+    name: 'button_disabled_html',
     code: button_disabled_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

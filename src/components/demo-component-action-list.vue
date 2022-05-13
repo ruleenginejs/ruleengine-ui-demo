@@ -46,7 +46,9 @@
       <v-action-item icon="play" @click="onClick">Play</v-action-item>
       <v-action-item icon="debug-stop" @click="onClick">Stop</v-action-item>
       <v-action-item icon="plus" @click="onClick">Add Item</v-action-item>
-      <v-action-item icon="folder" @click="onClick">Choose Folder</v-action-item>
+      <v-action-item icon="folder" @click="onClick"
+        >Choose Folder</v-action-item
+      >
     </v-action-list>
     <template #code>
       <demo-code name="actionlist_action_with_label_usage_html" />
@@ -59,7 +61,9 @@
       <v-action-item icon="play" @click="onClick">Play</v-action-item>
       <v-action-item icon="debug-stop" @click="onClick">Stop</v-action-item>
       <v-action-item icon="plus" @click="onClick">Add Item</v-action-item>
-      <v-action-item icon="folder" @click="onClick">Choose Folder</v-action-item>
+      <v-action-item icon="folder" @click="onClick"
+        >Choose Folder</v-action-item
+      >
     </v-action-list>
     <template #code>
       <demo-code name="actionlist_vertical_action_with_label_usage_html" />
@@ -69,10 +73,10 @@
 
 <script>
 export default {
-  name: "demo-component-action-list",
+  name: 'demo-component-action-list',
   setup() {
     return {
-      onClick: () => { }
+      onClick: () => {}
     };
   }
 };

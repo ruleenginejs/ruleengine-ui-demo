@@ -12,36 +12,36 @@
 </template>
 
 <script>
-import { reactive } from "vue";
+import { reactive } from 'vue';
 
 export default {
-  name: "demo-component-treeview",
+  name: 'demo-component-treeview',
   setup() {
     const items = reactive([
       {
         id: 1,
-        name: "Root folder",
+        name: 'Root folder',
         expanded: true,
         selected: false,
         children: [
           {
             id: 2,
-            name: "Folder 1",
+            name: 'Folder 1',
             expanded: false,
             selected: false,
-            icon: "v-icon-folder",
+            icon: 'v-icon-folder',
             children: [
               {
                 id: 3,
-                name: "File 1",
-                icon: "v-icon-doc-text",
+                name: 'File 1',
+                icon: 'v-icon-doc-text',
                 expanded: false,
                 selected: false
               },
               {
                 id: 4,
-                name: "File 2",
-                icon: "v-icon-doc-text",
+                name: 'File 2',
+                icon: 'v-icon-doc-text',
                 expanded: false,
                 selected: false
               }
@@ -49,15 +49,15 @@ export default {
           },
           {
             id: 5,
-            name: "File 3",
-            icon: "v-icon-doc-text",
+            name: 'File 3',
+            icon: 'v-icon-doc-text',
             expanded: false,
             selected: false
           },
           {
             id: 6,
-            name: "Folder 2",
-            icon: "v-icon-folder",
+            name: 'Folder 2',
+            icon: 'v-icon-folder',
             expanded: false,
             selected: false,
             children: []

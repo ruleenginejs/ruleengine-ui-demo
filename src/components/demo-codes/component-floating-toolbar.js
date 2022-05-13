@@ -79,23 +79,23 @@ const floating_toolbar_with_labels_usage_html = `
 
 export default [
   {
-    name: "floating_toolbar_basic_usage_html",
+    name: 'floating_toolbar_basic_usage_html',
     code: floating_toolbar_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "floating_toolbar_vertical_html",
+    name: 'floating_toolbar_vertical_html',
     code: floating_toolbar_vertical_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "floating_toolbar_fixed_html",
+    name: 'floating_toolbar_fixed_html',
     code: floating_toolbar_fixed_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "floating_toolbar_with_labels_usage_html",
+    name: 'floating_toolbar_with_labels_usage_html',
     code: floating_toolbar_with_labels_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

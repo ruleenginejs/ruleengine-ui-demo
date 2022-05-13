@@ -35,13 +35,13 @@ const codicons_html = `
 
 export default [
   {
-    name: "icon_basic_usage_html",
+    name: 'icon_basic_usage_html',
     code: icon_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "codicons_html",
+    name: 'codicons_html',
     code: codicons_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

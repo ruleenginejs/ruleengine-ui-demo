@@ -5,6 +5,6 @@
 
 <script>
 export default {
-  name: "demo-component-not-found"
+  name: 'demo-component-not-found'
 };
 </script>

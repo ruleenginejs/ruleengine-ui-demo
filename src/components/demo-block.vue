@@ -9,7 +9,7 @@
         :header-border="false"
         title="Code"
       >
-        <slot name="code"/>
+        <slot name="code" />
       </v-sidebar-section>
     </div>
   </div>
@@ -17,6 +17,6 @@
 
 <script>
 export default {
-  name: "demo-block"
+  name: 'demo-block'
 };
 </script>

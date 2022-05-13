@@ -37,10 +37,10 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-checkbox",
+  name: 'demo-component-checkbox',
   setup() {
     const checked = ref(true);
     const unchecked = ref(false);

@@ -19,6 +19,6 @@
 
 <script>
 export default {
-  name: "demo-component-content"
+  name: 'demo-component-content'
 };
 </script>

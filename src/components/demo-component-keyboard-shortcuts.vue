@@ -11,19 +11,19 @@
 </template>
 
 <script>
-import { reactive } from "vue"
+import { reactive } from 'vue';
 
 export default {
-  name: "demo-component-keyboard-shortcuts",
+  name: 'demo-component-keyboard-shortcuts',
   setup() {
     const shortcuts = reactive([
       {
-        title: "Copy",
-        key: "Ctrl+C"
+        title: 'Copy',
+        key: 'Ctrl+C'
       },
       {
-        title: "Paste",
-        key: "Ctrl+V"
+        title: 'Paste',
+        key: 'Ctrl+V'
       }
     ]);
 

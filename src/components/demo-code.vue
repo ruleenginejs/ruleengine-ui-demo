@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import { computed, toRefs } from "vue";
-import demoCodes from "./demo-codes";
+import { computed, toRefs } from 'vue';
+import demoCodes from './demo-codes';
 
 export default {
-  name: "demo-code",
+  name: 'demo-code',
   props: {
     lang: {
       type: String,
@@ -30,7 +30,7 @@ export default {
   setup(props) {
     const { lang, code, name } = toRefs(props);
     const predefined = computed(() =>
-      demoCodes.find((c) => c.name === name.value)
+      demoCodes.find(c => c.name === name.value)
     );
     const content = computed(() => code.value || predefined.value?.code.trim());
     const language = computed(() => lang.value || predefined.value?.lang);

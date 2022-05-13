@@ -50,8 +50,8 @@ const dropdown_basic_usage_html = `
 
 export default [
   {
-    name: "dropdown_basic_usage_html",
+    name: 'dropdown_basic_usage_html',
     code: dropdown_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

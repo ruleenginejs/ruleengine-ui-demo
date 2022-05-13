@@ -48,10 +48,10 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-tabs",
+  name: 'demo-component-tabs',
   setup() {
     return {
       selectedTab: ref(null)

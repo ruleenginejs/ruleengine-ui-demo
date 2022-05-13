@@ -17,16 +17,17 @@
         href="https://github.com/ruleenginejs/ruleengine-ui"
         class="demo-external-link"
         target="_blank"
-      >GitHub</a>
+        >GitHub</a
+      >
     </div>
   </v-layout>
 </template>
 
 <script>
-import DemoThemeSwitcher from "./demo-theme-switcher.vue";
+import DemoThemeSwitcher from './demo-theme-switcher.vue';
 
 export default {
-  name: "demo-header",
+  name: 'demo-header',
   components: {
     DemoThemeSwitcher
   }

@@ -1,8 +1,9 @@
 .vscode-light {
-  --vscode-font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", sans-serif;
+  --vscode-font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC',
+    'Segoe UI', sans-serif;
   --vscode-font-weight: normal;
   --vscode-font-size: 13px;
-  --vscode-editor-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --vscode-editor-font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   --vscode-editor-font-weight: normal;
   --vscode-editor-font-size: 14px;
   --vscode-foreground: #616161;
@@ -132,11 +133,26 @@
   --vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
   --vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
   --vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
-  --vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
-  --vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+  --vscode-editorOverviewRuler-currentContentForeground: rgba(
+    64,
+    200,
+    174,
+    0.5
+  );
+  --vscode-editorOverviewRuler-incomingContentForeground: rgba(
+    64,
+    166,
+    255,
+    0.5
+  );
   --vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
   --vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
-  --vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+  --vscode-editorOverviewRuler-selectionHighlightForeground: rgba(
+    160,
+    160,
+    160,
+    0.8
+  );
   --vscode-minimap-findMatchHighlight: #d18616;
   --vscode-minimap-selectionOccurrenceHighlight: #c9c9c9;
   --vscode-minimap-selectionHighlight: #add6ff;
@@ -246,8 +262,18 @@
   --vscode-editorSuggestWidget-focusHighlightForeground: #9dddff;
   --vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.25);
   --vscode-editor-wordHighlightStrongBackground: rgba(14, 99, 156, 0.25);
-  --vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
-  --vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+  --vscode-editorOverviewRuler-wordHighlightForeground: rgba(
+    160,
+    160,
+    160,
+    0.8
+  );
+  --vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(
+    192,
+    160,
+    192,
+    0.8
+  );
   --vscode-peekViewTitle-background: rgba(26, 133, 255, 0.1);
   --vscode-peekViewTitleLabel-foreground: #000000;
   --vscode-peekViewTitleDescription-foreground: #616161;
@@ -264,7 +290,12 @@
   --vscode-editorMarkerNavigationError-background: #e51400;
   --vscode-editorMarkerNavigationError-headerBackground: rgba(229, 20, 0, 0.1);
   --vscode-editorMarkerNavigationWarning-background: #bf8803;
-  --vscode-editorMarkerNavigationWarning-headerBackground: rgba(191, 136, 3, 0.1);
+  --vscode-editorMarkerNavigationWarning-headerBackground: rgba(
+    191,
+    136,
+    3,
+    0.1
+  );
   --vscode-editorMarkerNavigationInfo-background: #1a85ff;
   --vscode-editorMarkerNavigationInfo-headerBackground: rgba(26, 133, 255, 0.1);
   --vscode-editorMarkerNavigation-background: #ffffff;
@@ -400,7 +431,12 @@
   --vscode-keybindingTable-headerBackground: rgba(97, 97, 97, 0.04);
   --vscode-keybindingTable-rowsBackground: rgba(97, 97, 97, 0.04);
   --vscode-editor-stackFrameHighlightBackground: rgba(255, 255, 102, 0.45);
-  --vscode-editor-focusedStackFrameHighlightBackground: rgba(206, 231, 206, 0.45);
+  --vscode-editor-focusedStackFrameHighlightBackground: rgba(
+    206,
+    231,
+    206,
+    0.45
+  );
   --vscode-debugIcon-breakpointForeground: #e51400;
   --vscode-debugIcon-breakpointDisabledForeground: #848484;
   --vscode-debugIcon-breakpointUnverifiedForeground: #848484;

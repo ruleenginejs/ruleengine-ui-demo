@@ -78,6 +78,6 @@
 
 <script>
 export default {
-  name: "demo-component-fieldset"
+  name: 'demo-component-fieldset'
 };
 </script>

@@ -8,21 +8,21 @@
 </template>
 
 <script>
-import { reactive, ref, watch } from "vue";
+import { reactive, ref, watch } from 'vue';
 
 export default {
-  name: "demo-theme-switcher",
+  name: 'demo-theme-switcher',
   setup() {
-    const selectedItem = ref("vscode-dark");
+    const selectedItem = ref('vscode-dark');
 
     const themes = reactive([
       {
-        text: "Dark+ (default dark)",
-        value: "vscode-dark"
+        text: 'Dark+ (default dark)',
+        value: 'vscode-dark'
       },
       {
-        text: "Light+ (default light)",
-        value: "vscode-light"
+        text: 'Light+ (default light)',
+        value: 'vscode-light'
       }
     ]);
 

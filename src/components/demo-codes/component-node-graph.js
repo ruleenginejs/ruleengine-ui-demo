@@ -47,8 +47,8 @@ const node_graph_basic_usage_html = `
 
 export default [
   {
-    name: "node_graph_basic_usage_html",
+    name: 'node_graph_basic_usage_html',
     code: node_graph_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

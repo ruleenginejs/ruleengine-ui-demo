@@ -45,46 +45,46 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-autocomplete",
+  name: 'demo-component-autocomplete',
   setup() {
-    const value = ref("");
+    const value = ref('');
     const items = ref([
       {
-        text: "Vue.js"
+        text: 'Vue.js'
       },
       {
-        text: "React"
+        text: 'React'
       },
       {
-        text: "Angular"
+        text: 'Angular'
       },
       {
-        text: "Ember.js"
+        text: 'Ember.js'
       },
       {
-        text: "Meteor"
+        text: 'Meteor'
       },
       {
-        text: "Polymer"
+        text: 'Polymer'
       },
       {
-        text: "Backbone.js"
+        text: 'Backbone.js'
       }
     ]);
 
-    const searchData = (query) => {
+    const searchData = query => {
       return query
-        ? items.value.filter((item) =>
+        ? items.value.filter(item =>
             item.text.toLowerCase().includes(query.toLowerCase())
           )
         : items.value;
     };
 
     const fetchAutocompleteData = (query, requestId, token) => {
-      return new Promise((resolve) => {
+      return new Promise(resolve => {
         const timer = setTimeout(() => {
           resolve(searchData(query));
         }, 100);
@@ -98,7 +98,7 @@ export default {
 
     return {
       value,
-      withIconValue: ref(""),
+      withIconValue: ref(''),
       fetchAutocompleteData,
       onClick: () => {}
     };

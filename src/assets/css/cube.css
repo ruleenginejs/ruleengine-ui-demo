@@ -57,62 +57,62 @@
 
 .demo-cube-a::after {
   @apply block;
-  content: "A";
+  content: 'A';
 }
 
 .demo-cube-b::after {
   @apply block;
-  content: "B";
+  content: 'B';
 }
 
 .demo-cube-c::after {
   @apply block;
-  content: "C";
+  content: 'C';
 }
 
 .demo-cube-d::after {
   @apply block;
-  content: "D";
+  content: 'D';
 }
 
 /* vscode dark */
 .vscode-dark .demo-cube-a {
-  background-color: #2A2438;
+  background-color: #2a2438;
 }
 
 .vscode-dark .demo-cube-b {
-  background-color: #59405C;
+  background-color: #59405c;
 }
 
 .vscode-dark .demo-cube-c {
-  background-color: #322F3D;
+  background-color: #322f3d;
 }
 
 .vscode-dark .demo-cube-d {
-  background-color: #4B5D67;
+  background-color: #4b5d67;
 }
 
 .vscode-dark .demo-cube-num {
-  background-color: #4B5D67;
+  background-color: #4b5d67;
 }
 
 /* vscode light */
 .vscode-light .demo-cube-a {
-  background-color: #F3ECB8;
+  background-color: #f3ecb8;
 }
 
 .vscode-light .demo-cube-b {
-  background-color: #F5CAB3;
+  background-color: #f5cab3;
 }
 
 .vscode-light .demo-cube-c {
-  background-color: #A8D3DA;
+  background-color: #a8d3da;
 }
 
 .vscode-light .demo-cube-d {
-  background-color: #B590CA;
+  background-color: #b590ca;
 }
 
 .vscode-light .demo-cube-num {
-  background-color: #B590CA;
+  background-color: #b590ca;
 }

@@ -19,37 +19,37 @@
 </template>
 
 <script>
-import { reactive, ref } from "vue";
+import { reactive, ref } from 'vue';
 
 export default {
-  name: "demo-component-selectbox",
+  name: 'demo-component-selectbox',
   setup() {
-    const value = ref("Option 1");
+    const value = ref('Option 1');
 
     const options = reactive([
       {
-        text: "Option 1",
-        value: "Option 1"
+        text: 'Option 1',
+        value: 'Option 1'
       },
       {
-        text: "Option 2",
-        value: "Option 2"
+        text: 'Option 2',
+        value: 'Option 2'
       },
       {
-        text: "Option 3",
-        value: "Option 3"
+        text: 'Option 3',
+        value: 'Option 3'
       },
       {
-        text: "Option 4",
-        value: "Option 4"
+        text: 'Option 4',
+        value: 'Option 4'
       },
       {
-        text: "Option 5",
-        value: "Option 5"
+        text: 'Option 5',
+        value: 'Option 5'
       }
     ]);
 
-    const disabledValue = ref("Option 1");
+    const disabledValue = ref('Option 1');
 
     return {
       options,

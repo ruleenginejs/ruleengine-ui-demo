@@ -4,7 +4,12 @@
       <v-sidebar-section header-compact expand title="Getting Started">
         <demo-sidebar-nav :items="gettingStarted" />
       </v-sidebar-section>
-      <v-sidebar-section header-compact expand :bottom-border="false" title="Components">
+      <v-sidebar-section
+        header-compact
+        expand
+        :bottom-border="false"
+        title="Components"
+      >
         <demo-sidebar-nav :items="components" />
       </v-sidebar-section>
     </v-content>
@@ -12,11 +17,11 @@
 </template>
 
 <script>
-import DemoSidebarNav from "./demo-sidebar-nav.vue";
-import menu from "./demo-menu";
+import DemoSidebarNav from './demo-sidebar-nav.vue';
+import menu from './demo-menu';
 
 export default {
-  name: "demo-sidebar",
+  name: 'demo-sidebar',
   components: {
     DemoSidebarNav
   },

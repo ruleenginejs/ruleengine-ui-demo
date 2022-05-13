@@ -67,8 +67,8 @@ const treeview_basic_usage_html = `
 
 export default [
   {
-    name: "treeview_basic_usage_html",
+    name: 'treeview_basic_usage_html',
     code: treeview_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

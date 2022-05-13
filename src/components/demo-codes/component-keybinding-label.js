@@ -16,13 +16,13 @@ const keybindinglabel_other_separator_usage_html = `
 
 export default [
   {
-    name: "keybindinglabel_basic_usage_html",
+    name: 'keybindinglabel_basic_usage_html',
     code: keybindinglabel_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "keybindinglabel_other_separator_usage_html",
+    name: 'keybindinglabel_other_separator_usage_html',
     code: keybindinglabel_other_separator_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

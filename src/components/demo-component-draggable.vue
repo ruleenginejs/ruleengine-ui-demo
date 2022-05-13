@@ -100,10 +100,10 @@
 
 <script>
 export default {
-  name: "demo-component-draggable",
+  name: 'demo-component-draggable',
   setup() {
     return {
-      onClick: () => { }
+      onClick: () => {}
     };
   }
 };

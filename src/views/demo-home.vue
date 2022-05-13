@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import { ref } from "vue";
-import vscodeLogo from "@/assets/images/vscode-logo.svg";
+import { ref } from 'vue';
+import vscodeLogo from '@/assets/images/vscode-logo.svg';
 
 export default {
-  name: "demo-home",
+  name: 'demo-home',
   setup() {
     const logo = ref(vscodeLogo);
 

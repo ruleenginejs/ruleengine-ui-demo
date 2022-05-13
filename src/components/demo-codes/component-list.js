@@ -64,13 +64,13 @@ const list_focusable_html = `
 
 export default [
   {
-    name: "list_basic_usage_html",
+    name: 'list_basic_usage_html',
     code: list_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "list_focusable_html",
+    name: 'list_focusable_html',
     code: list_focusable_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

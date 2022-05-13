@@ -14,8 +14,8 @@ const space_basic_usage_html = `
 
 export default [
   {
-    name: "space_basic_usage_html",
+    name: 'space_basic_usage_html',
     code: space_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

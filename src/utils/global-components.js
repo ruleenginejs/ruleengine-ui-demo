@@ -1,20 +1,16 @@
-import kebabCase from "lodash/kebabCase";
-const components = import.meta.globEager("../components/**/demo-*.(vue|js)");
+import kebabCase from 'lodash/kebabCase';
+const components = import.meta.globEager('../components/**/demo-*.(vue|js)');
 
 export default {
-  install: (app) => {
+  install: app => {
     for (const [fileName, componentConfig] of Object.entries(components)) {
-      const componentName =
-        kebabCase(
-          fileName
-            .split("/")
-            .pop()
-            .replace(/\.\w+$/, "")
-        );
-      app.component(
-        componentName,
-        componentConfig.default || componentConfig
+      const componentName = kebabCase(
+        fileName
+          .split('/')
+          .pop()
+          .replace(/\.\w+$/, '')
       );
+      app.component(componentName, componentConfig.default || componentConfig);
     }
   }
-}
+};

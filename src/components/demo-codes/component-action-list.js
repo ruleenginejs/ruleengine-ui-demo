@@ -55,28 +55,28 @@ const actionlist_vertical_action_with_label_usage_html = `
 
 export default [
   {
-    name: "actionlist_basic_usage_html",
+    name: 'actionlist_basic_usage_html',
     code: actionlist_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionlist_disabled_action_usage_html",
+    name: 'actionlist_disabled_action_usage_html',
     code: actionlist_disabled_action_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionlist_vertical_action_list_usage_html",
+    name: 'actionlist_vertical_action_list_usage_html',
     code: actionlist_vertical_action_list_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionlist_action_with_label_usage_html",
+    name: 'actionlist_action_with_label_usage_html',
     code: actionlist_action_with_label_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "actionlist_vertical_action_with_label_usage_html",
+    name: 'actionlist_vertical_action_with_label_usage_html',
     code: actionlist_vertical_action_with_label_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

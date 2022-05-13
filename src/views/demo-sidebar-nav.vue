@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: "demo-sidebar-nav",
+  name: 'demo-sidebar-nav',
   props: {
     items: {
       type: Array,

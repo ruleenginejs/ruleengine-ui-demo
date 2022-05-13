@@ -12,11 +12,11 @@
 </template>
 
 <script>
-import { ref } from "vue";
-import DemoSidebar from "./demo-sidebar.vue";
+import { ref } from 'vue';
+import DemoSidebar from './demo-sidebar.vue';
 
 export default {
-  name: "demo-component-layout",
+  name: 'demo-component-layout',
   components: {
     DemoSidebar
   },

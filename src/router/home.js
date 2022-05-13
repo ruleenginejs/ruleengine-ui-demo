@@ -1,19 +1,19 @@
-import component from "./component";
+import component from './component';
 
-const DemoLayout = () => import("@/views/demo-layout.vue");
-const DemoHome = () => import("@/views/demo-home.vue");
+const DemoLayout = () => import('@/views/demo-layout.vue');
+const DemoHome = () => import('@/views/demo-home.vue');
 
 export default [
   {
-    path: "/",
+    path: '/',
     component: DemoLayout,
     children: [
       {
-        path: "",
-        name: "home",
+        path: '',
+        name: 'home',
         component: DemoHome
       },
       ...component
     ]
   }
-]
+];

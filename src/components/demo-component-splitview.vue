@@ -44,6 +44,6 @@
 
 <script>
 export default {
-  name: "demo-component-splitview"
+  name: 'demo-component-splitview'
 };
 </script>

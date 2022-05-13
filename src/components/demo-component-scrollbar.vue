@@ -5,7 +5,11 @@
   <demo-block>
     <div class="scrollbar" style="height: 260px; overflow: auto">
       <v-layout gutter wrap>
-        <div v-for="item in 10" :key="item" class="demo-cube demo-cube-num demo-cube-h14">
+        <div
+          v-for="item in 10"
+          :key="item"
+          class="demo-cube demo-cube-num demo-cube-h14"
+        >
           {{ item }}
         </div>
       </v-layout>
@@ -36,6 +40,6 @@
 
 <script>
 export default {
-  name: "demo-component-scrollbar"
+  name: 'demo-component-scrollbar'
 };
 </script>

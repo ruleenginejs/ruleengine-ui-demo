@@ -29,8 +29,8 @@ export default {
 
 export default [
   {
-    name: "keyboard_shortcuts_basic_usage_html",
+    name: 'keyboard_shortcuts_basic_usage_html',
     code: keyboard_shortcuts_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

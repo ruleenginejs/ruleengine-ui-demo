@@ -18,8 +18,8 @@ const layout_basic_html = `
 
 export default [
   {
-    name: "layout_basic_html",
+    name: 'layout_basic_html',
     code: layout_basic_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

@@ -92,8 +92,8 @@ const suggest_basic_usage_html = `
 
 export default [
   {
-    name: "suggest_basic_usage_html",
+    name: 'suggest_basic_usage_html',
     code: suggest_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

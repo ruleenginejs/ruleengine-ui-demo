@@ -11,8 +11,8 @@ const content_basic_usage_html = `
 
 export default [
   {
-    name: "content_basic_usage_html",
+    name: 'content_basic_usage_html',
     code: content_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

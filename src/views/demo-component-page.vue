@@ -1,9 +1,9 @@
 <script>
-import { resolveDynamicComponent, h, computed, toRefs } from "vue";
-import DemoComponentNotFound from "./demo-component-not-found.vue";
+import { resolveDynamicComponent, h, computed, toRefs } from 'vue';
+import DemoComponentNotFound from './demo-component-not-found.vue';
 
 export default {
-  name: "demo-component-page",
+  name: 'demo-component-page',
   props: {
     id: {
       type: String,
@@ -18,7 +18,7 @@ export default {
 
     return () => {
       let demoComponent = resolveDynamicComponent(componentName.value);
-      if (typeof demoComponent === "string") {
+      if (typeof demoComponent === 'string') {
         return h(DemoComponentNotFound);
       }
       return h(demoComponent);

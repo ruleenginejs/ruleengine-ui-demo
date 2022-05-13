@@ -28,47 +28,47 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-suggest",
+  name: 'demo-component-suggest',
   setup() {
     const suggestOpen = ref(false);
-    const queryText = ref("");
+    const queryText = ref('');
     const suggestionItems = ref([
       {
-        text: "Vue.js"
+        text: 'Vue.js'
       },
       {
-        text: "React"
+        text: 'React'
       },
       {
-        text: "Angular"
+        text: 'Angular'
       },
       {
-        text: "Ember.js"
+        text: 'Ember.js'
       },
       {
-        text: "Meteor"
+        text: 'Meteor'
       },
       {
-        text: "Polymer"
+        text: 'Polymer'
       },
       {
-        text: "Backbone.js"
+        text: 'Backbone.js'
       }
     ]);
 
-    const searchData = (query) => {
+    const searchData = query => {
       return query
-        ? suggestionItems.value.filter((item) =>
+        ? suggestionItems.value.filter(item =>
             item.text.toLowerCase().includes(query.toLowerCase())
           )
         : suggestionItems.value;
     };
 
     const fetchData = (query, requestId, token) => {
-      return new Promise((resolve) => {
+      return new Promise(resolve => {
         const timer = setTimeout(() => {
           resolve(searchData(query));
         }, 100);
@@ -81,7 +81,7 @@ export default {
     };
 
     const onError = () => {};
-    const onSuggestionSelected = (item) => {
+    const onSuggestionSelected = item => {
       queryText.value = item.text;
       suggestOpen.value = false;
     };

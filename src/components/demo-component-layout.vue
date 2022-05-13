@@ -27,6 +27,6 @@
 
 <script>
 export default {
-  name: "demo-component-layout"
+  name: 'demo-component-layout'
 };
 </script>

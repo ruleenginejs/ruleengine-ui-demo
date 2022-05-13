@@ -68,7 +68,7 @@
 
 <script>
 export default {
-  name: "demo-component-action-bar",
+  name: 'demo-component-action-bar',
   setup() {
     return {
       onClick: () => {}

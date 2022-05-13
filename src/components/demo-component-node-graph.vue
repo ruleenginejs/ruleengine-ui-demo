@@ -56,6 +56,6 @@
 
 <script>
 export default {
-  name: "demo-component-node-graph"
+  name: 'demo-component-node-graph'
 };
 </script>

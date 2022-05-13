@@ -32,13 +32,13 @@ const splitview_horizontal_usage_html = `
 
 export default [
   {
-    name: "splitview_basic_usage_html",
+    name: 'splitview_basic_usage_html',
     code: splitview_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "splitview_horizontal_usage_html",
+    name: 'splitview_horizontal_usage_html',
     code: splitview_horizontal_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

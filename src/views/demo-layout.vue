@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import DemoHeader from "./demo-header.vue";
+import DemoHeader from './demo-header.vue';
 
 export default {
-  name: "demo-layout",
+  name: 'demo-layout',
   components: {
     DemoHeader
   }

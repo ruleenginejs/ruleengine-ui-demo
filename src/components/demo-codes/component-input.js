@@ -87,23 +87,23 @@ const input_message_html = `
 
 export default [
   {
-    name: "input_basic_usage_html",
+    name: 'input_basic_usage_html',
     code: input_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "input_disabled_html",
+    name: 'input_disabled_html',
     code: input_disabled_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "input_with_icon_html",
+    name: 'input_with_icon_html',
     code: input_with_icon_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "input_message_html",
+    name: 'input_message_html',
     code: input_message_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

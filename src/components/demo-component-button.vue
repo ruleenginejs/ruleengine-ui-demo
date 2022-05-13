@@ -27,6 +27,6 @@
 
 <script>
 export default {
-  name: "demo-component-button"
+  name: 'demo-component-button'
 };
 </script>

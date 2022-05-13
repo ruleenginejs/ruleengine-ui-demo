@@ -62,13 +62,13 @@ const checkbox_disabled_html = `
 
 export default [
   {
-    name: "checkbox_basic_usage_html",
+    name: 'checkbox_basic_usage_html',
     code: checkbox_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "checkbox_disabled_html",
+    name: 'checkbox_disabled_html',
     code: checkbox_disabled_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

@@ -86,13 +86,13 @@ const selectbox_disabled_usage_html = `
 
 export default [
   {
-    name: "selectbox_basic_usage_html",
+    name: 'selectbox_basic_usage_html',
     code: selectbox_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "selectbox_disabled_usage_html",
+    name: 'selectbox_disabled_usage_html',
     code: selectbox_disabled_usage_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

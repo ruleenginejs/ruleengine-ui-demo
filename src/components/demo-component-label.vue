@@ -28,10 +28,10 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "demo-component-label",
+  name: 'demo-component-label',
   setup() {
     return {
       value: ref(false)

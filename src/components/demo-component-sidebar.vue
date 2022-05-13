@@ -50,6 +50,6 @@
 
 <script>
 export default {
-  name: "demo-component-sidebar"
+  name: 'demo-component-sidebar'
 };
 </script>

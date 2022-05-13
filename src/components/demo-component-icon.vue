@@ -60,6 +60,6 @@
 
 <script>
 export default {
-  name: "demo-component-space"
+  name: 'demo-component-space'
 };
 </script>

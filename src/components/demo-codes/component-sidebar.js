@@ -38,13 +38,13 @@ const sidebar_section_html = `
 
 export default [
   {
-    name: "sidebar_basic_usage_html",
+    name: 'sidebar_basic_usage_html',
     code: sidebar_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "sidebar_section_html",
+    name: 'sidebar_section_html',
     code: sidebar_section_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

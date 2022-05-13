@@ -91,6 +91,6 @@
 
 <script>
 export default {
-  name: "demo-component-floating-toolbar"
+  name: 'demo-component-floating-toolbar'
 };
 </script>

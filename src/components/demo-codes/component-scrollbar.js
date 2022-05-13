@@ -24,13 +24,13 @@ const scrollbar_horizontal_scroll_html = `
 
 export default [
   {
-    name: "scrollbar_basic_usage_html",
+    name: 'scrollbar_basic_usage_html',
     code: scrollbar_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "scrollbar_horizontal_scroll_html",
+    name: 'scrollbar_horizontal_scroll_html',
     code: scrollbar_horizontal_scroll_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];

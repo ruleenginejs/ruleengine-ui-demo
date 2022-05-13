@@ -24,6 +24,6 @@
 
 <script>
 export default {
-  name: "demo-component-keybinding-label"
+  name: 'demo-component-keybinding-label'
 };
 </script>

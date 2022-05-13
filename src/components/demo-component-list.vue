@@ -18,7 +18,11 @@
   <demo-block>
     <div class="demo-cube demo-cube-h52">
       <v-content h-full scroll>
-        <v-list :tab-index="0" :items="items" v-model:selected="focusableSelectedItem" />
+        <v-list
+          :tab-index="0"
+          :items="items"
+          v-model:selected="focusableSelectedItem"
+        />
       </v-content>
     </div>
     <template #code>
@@ -28,10 +32,10 @@
 </template>
 
 <script>
-import { reactive, ref } from "vue";
+import { reactive, ref } from 'vue';
 
 export default {
-  name: "demo-component-list",
+  name: 'demo-component-list',
   setup() {
     const items = reactive([]);
     const selectedItem = ref({ id: 1 });
@@ -41,7 +45,7 @@ export default {
       items.push({
         id: i + 1,
         text: `Item ${i + 1}`,
-        icon: "v-icon-doc-text"
+        icon: 'v-icon-doc-text'
       });
     }
 

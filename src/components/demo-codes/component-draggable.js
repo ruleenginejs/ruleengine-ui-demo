@@ -86,28 +86,28 @@ const draggable_actions_html = `
 
 export default [
   {
-    name: "draggable_basic_usage_html",
+    name: 'draggable_basic_usage_html',
     code: draggable_basic_usage_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "draggable_with_hint_html",
+    name: 'draggable_with_hint_html',
     code: draggable_with_hint_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "draggable_fixed_html",
+    name: 'draggable_fixed_html',
     code: draggable_fixed_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "draggable_disabled_html",
+    name: 'draggable_disabled_html',
     code: draggable_disabled_html,
-    lang: "html"
+    lang: 'html'
   },
   {
-    name: "draggable_actions_html",
+    name: 'draggable_actions_html',
     code: draggable_actions_html,
-    lang: "html"
+    lang: 'html'
   }
-]
+];
