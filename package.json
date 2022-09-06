@@ -9,8 +9,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext .vue,.js --fix --ignore-path .gitignore",
-    "format": "prettier --write \"src/**/*.{js,vue,css}\"",
-    "prepare": "husky install"
+    "format": "prettier --write \"src/**/*.{js,vue,css}\""
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "2.1.0",
